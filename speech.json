@@ -1,0 +1,36 @@
+{
+    "responses": [
+        {
+            "prompt": ["hello", "hi", "hey", "greetings"],
+            "response": "Hello! How can I assist you today?"
+        },
+        {
+            "prompt": ["how are you", "what's up", "howdy"],
+            "response": "I'm doing well, thank you. What can I do for you?"
+        },
+        {
+            "prompt": ["what is your name", "who are you", "tell me your name", "what are you", "what can you do"],
+            "response": "I am Licia, your voice assistant. What is your name?"
+        },
+        {
+            "prompt": ["my name is", "i am"],
+            "response": "Nice to meet you {user_name}! How can I assist you today?"
+        },
+        {
+            "prompt": ["weather", "temperature", "forecast"],
+            "response": "I'm sorry, I don't have weather information right now. You can try asking about something else."
+        },
+        {
+            "prompt": ["news", "headlines", "current events"],
+            "response": "I don't have the latest news at the moment. Is there anything else you'd like to know?"
+        },
+        {
+            "prompt": ["goodbye", "bye", "exit"],
+            "response": "Goodbye! If you have more questions in the future, feel free to ask."
+        },
+        {
+            "prompt": ["*"],
+            "response": "I'm not sure how to respond to that. Could you please ask me something else?"
+        }
+    ]
+}
